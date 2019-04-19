@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="Yang&#39;s Blog">
 <meta property="og:description" content="12345678910111213141516171819202122232425# 二分查找，是对有序列表进行操作查找。一般遍历查找的时间复杂度为O(n)，二分查找可以将时间复杂度降低到O(logn)def binary_search(list, target):    left, right = 0, len(list)    if (right == 0):        return -1">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-04-19T13:14:41.124Z">
+<meta property="og:updated_time" content="2019-04-19T13:22:55.715Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="二分查找">
 <meta name="twitter:description" content="12345678910111213141516171819202122232425# 二分查找，是对有序列表进行操作查找。一般遍历查找的时间复杂度为O(n)，二分查找可以将时间复杂度降低到O(logn)def binary_search(list, target):    left, right = 0, len(list)    if (right == 0):        return -1">
@@ -353,10 +353,12 @@
 
       
         <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"># 二分查找，是对有序列表进行操作查找。一般遍历查找的时间复杂度为O(n)，二分查找可以将时间复杂度降低到O(logn)</span><br><span class="line">def binary_search(list, target):</span><br><span class="line">    left, right = 0, len(list)</span><br><span class="line">    if (right == 0):</span><br><span class="line">        return -1</span><br><span class="line">    while (left &lt; right):</span><br><span class="line">        middle = int((left + right) / 2)</span><br><span class="line">        if (list[middle] == target):</span><br><span class="line">            return middle</span><br><span class="line">        elif (list[middle] &lt; target):</span><br><span class="line">            left = middle + 1</span><br><span class="line">        else:</span><br><span class="line">            right = middle - 1</span><br><span class="line">    return -1</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">if __name__ == &apos;__main__&apos;:</span><br><span class="line">    list = [3, 5, 1, 2, 4]</span><br><span class="line">    l = sorted(list)</span><br><span class="line">    # 使用内置函数遍历查找，O(n)</span><br><span class="line">    index1 = l.index(5)</span><br><span class="line">    # 使用二分查找 O(logn)</span><br><span class="line">    index2 = binary_search(l, 5)</span><br><span class="line">    print(index1)</span><br><span class="line">    print(index2)</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <div id="container"></div>
 
 
+
+
+<p><div id="container"></div></p>
 <p><link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"></p>
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
@@ -371,6 +373,7 @@ var gitment = new Gitment({
 })
 gitment.render('container')
 </script>
+
       
     </div>
     
