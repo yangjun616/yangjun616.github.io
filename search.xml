@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[二分查找]]></title>
+    <url>%2F2019%2F04%2F16%2F%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122232425# 二分查找，是对有序列表进行操作查找。一般遍历查找的时间复杂度为O(n)，二分查找可以将时间复杂度降低到O(logn)def binary_search(list, target): left, right = 0, len(list) if (right == 0): return -1 while (left &lt; right): middle = int((left + right) / 2) if (list[middle] == target): return middle elif (list[middle] &lt; target): left = middle + 1 else: right = middle - 1 return -1if __name__ == &apos;__main__&apos;: list = [3, 5, 1, 2, 4] l = sorted(list) # 使用内置函数遍历查找，O(n) index1 = l.index(5) # 使用二分查找 O(logn) index2 = binary_search(l, 5) print(index1) print(index2) ​]]></content>
+      <categories>
+        <category>基础算法</category>
+      </categories>
+      <tags>
+        <tag>基础算法</tag>
+      </tags>
+  </entry>
+</search>
