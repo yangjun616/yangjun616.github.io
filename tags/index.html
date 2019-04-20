@@ -758,7 +758,7 @@
 
 <script>
   var GUEST = ['nick', 'mail', 'link'];
-  var guest = '';
+  var guest = 'nick,mail,link';
   guest = guest.split(',').filter(function(item) {
     return GUEST.indexOf(item) > -1;
   });
@@ -768,10 +768,10 @@
     notify: false,
     appId: '43CC56U3km87GPrHYmJ94bjA-gzGzoHsz',
     appKey: 'Yr7JdJpyE76l1TfWPprBk2gV',
-    placeholder: 'Just go go',
+    placeholder: '留言',
     avatar: '',
     meta: guest,
-    pageSize: '' || 10,
+    pageSize: '10' || 10,
     visitor: ,
     lang: '' || 'zh-cn'
   });
