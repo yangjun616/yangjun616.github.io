@@ -96,13 +96,20 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Yang&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/archives/2019/index.html">
+  <meta name="description" content="123456# Docker是什么？Docker是一个虚拟环境容器，可以将你的开发环境、代码、配置文件等一并打包到这个容器中，并发布和应用到任意平台中。#Docker的三个概念镜像（Image）：类似于虚拟机中的镜像，是一个包含有文件系统的面向Docker引擎的只读模板。任何应用程序运行都需要环境，而镜像就是用来提供这种运行环境的。容器（Container）：类似于一个轻量级的沙盒，可以将其看作一">
+<meta name="keywords" content="docker,mysql">
+<meta property="og:type" content="article">
+<meta property="og:title" content="docker运行mysql，docker入门">
+<meta property="og:url" content="http://yoursite.com/2019/04/16/docker运行mysql/index.html">
 <meta property="og:site_name" content="Yang&#39;s Blog">
+<meta property="og:description" content="123456# Docker是什么？Docker是一个虚拟环境容器，可以将你的开发环境、代码、配置文件等一并打包到这个容器中，并发布和应用到任意平台中。#Docker的三个概念镜像（Image）：类似于虚拟机中的镜像，是一个包含有文件系统的面向Docker引擎的只读模板。任何应用程序运行都需要环境，而镜像就是用来提供这种运行环境的。容器（Container）：类似于一个轻量级的沙盒，可以将其看作一">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://www.runoob.com/wp-content/uploads/2018/01/1515480613-2248-whale-x.png">
+<meta property="og:updated_time" content="2019-06-01T02:41:13.538Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Yang&#39;s Blog">
+<meta name="twitter:title" content="docker运行mysql，docker入门">
+<meta name="twitter:description" content="123456# Docker是什么？Docker是一个虚拟环境容器，可以将你的开发环境、代码、配置文件等一并打包到这个容器中，并发布和应用到任意平台中。#Docker的三个概念镜像（Image）：类似于虚拟机中的镜像，是一个包含有文件系统的面向Docker引擎的只读模板。任何应用程序运行都需要环境，而镜像就是用来提供这种运行环境的。容器（Container）：类似于一个轻量级的沙盒，可以将其看作一">
+<meta name="twitter:image" content="https://www.runoob.com/wp-content/uploads/2018/01/1515480613-2248-whale-x.png">
 
 
 
@@ -110,7 +117,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/archives/2019/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/16/docker运行mysql/">
 
 
 
@@ -120,7 +127,7 @@
   };
 </script>
 
-  <title>归档 | Yang's Blog</title>
+  <title>docker运行mysql，docker入门 | Yang's Blog</title>
   
 
 
@@ -168,7 +175,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -282,7 +289,7 @@
         
         
           
-          <li class="menu-item menu-item-archives menu-item-active">
+          <li class="menu-item menu-item-archives">
 
     
     
@@ -333,31 +340,6 @@
   
     
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
   
 
   
@@ -403,113 +385,277 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
 
-      
-      <span class="archive-page-counter">
-        
-        
-        
-          
-        
-        嗯..! 目前共计 2 篇日志。 继续努力。
-      </span>
-      
-
-      
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2019">2019</h1>
-          </div>
-        
-        
-
-        
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/16/docker运行mysql/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="杨军">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yang's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
         
-          <a class="post-title-link" href="/2019/04/16/二分查找/" itemprop="url">
-            
-              <span itemprop="name">二分查找</span>
-            
-          </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">docker运行mysql，docker入门
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-04-16T11:01:09+08:00" content="2019-04-16">
-          04-16
-        </time>
-      </div>
+              
+            
+          </h1>
+        
 
-    </header>
-  </article>
+        <div class="post-meta">
+          <span class="post-time">
 
+            
+            
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-04-16 11:01:09" itemprop="dateCreated datePublished" datetime="2019-04-16T11:01:09+08:00">2019-04-16</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-06-01 10:41:13" itemprop="dateModified" datetime="2019-06-01T10:41:13+08:00">2019-06-01</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/docker/" itemprop="url" rel="index"><span itemprop="name">docker</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2019/04/16/docker运行mysql/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/16/docker运行mysql/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/04/16/docker运行mysql/" itemprop="url">
-            
-              <span itemprop="name">docker运行mysql，docker入门</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-04-16T11:01:09+08:00" content="2019-04-16">
-          04-16
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
+      
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Docker是什么？</span><br><span class="line">Docker是一个虚拟环境容器，可以将你的开发环境、代码、配置文件等一并打包到这个容器中，并发布和应用到任意平台中。</span><br><span class="line">#Docker的三个概念</span><br><span class="line">镜像（Image）：类似于虚拟机中的镜像，是一个包含有文件系统的面向Docker引擎的只读模板。任何应用程序运行都需要环境，而镜像就是用来提供这种运行环境的。</span><br><span class="line">容器（Container）：类似于一个轻量级的沙盒，可以将其看作一个极简的Linux系统环境（包括root权限、进程空间、用户空间和网络空间等），以及运行在其中的应用程序。Docker引擎利用容器来运行、隔离各个应用。容器是镜像创建的应用实例，可以创建、启动、停止、删除容器，各个容器之间是是相互隔离的，互不影响。注意：镜像本身是只读的，容器从镜像启动时，Docker在镜像的上层创建一个可写层，镜像本身不变。</span><br><span class="line">仓库（Repository）：类似于代码仓库，这里是镜像仓库，是Docker用来集中存放镜像文件的地方。注意与注册服务器（Registry）的区别：注册服务器是存放仓库的地方，一般会有多个仓库；而仓库是存放镜像的地方，一般每个仓库存放一类镜像，每个镜像利用tag进行区分，比如mysql仓库存放有多个版本（8.0.16、5.7等）的mysql镜像。</span><br></pre></td></tr></table></figure>
+<h3 id="Docker安装"><a href="#Docker安装" class="headerlink" title="Docker安装"></a>Docker安装</h3><p>macOS 我们可以使用 Homebrew 来安装 Docker。</p>
+<p>Homebrew 的 Cask 已经支持 Docker for Mac，因此可以很方便的使用 Homebrew Cask 来进行安装：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">$ brew cask install docker</span><br><span class="line"></span><br><span class="line">==&gt; Creating Caskroom at /usr/local/Caskroom</span><br><span class="line">==&gt; We&apos;ll set permissions properly so we won&apos;t need sudo in the future</span><br><span class="line">Password:          # 输入 macOS 密码</span><br><span class="line">==&gt; Satisfying dependencies</span><br><span class="line">==&gt; Downloading https://download.docker.com/mac/stable/21090/Docker.dmg</span><br><span class="line">######################################################################## 100.0%</span><br><span class="line">==&gt; Verifying checksum for Cask docker</span><br><span class="line">==&gt; Installing Cask docker</span><br><span class="line">==&gt; Moving App &apos;Docker.app&apos; to &apos;/Applications/Docker.app&apos;.</span><br><span class="line">&amp;#x1f37a;  docker was successfully installed!</span><br></pre></td></tr></table></figure></p>
+<p>在载入 Docker app 后，点击 Next，可能会询问你的 macOS 登陆密码，你输入即可。之后会弹出一个 Docker 运行的提示窗口，状态栏上也有有个小鲸鱼的图标（<img src="https://www.runoob.com/wp-content/uploads/2018/01/1515480613-2248-whale-x.png" alt="img">）。</p>
+<h3 id="Docker镜像操作"><a href="#Docker镜像操作" class="headerlink" title="Docker镜像操作"></a>Docker镜像操作</h3><p>我们从官方注册服务器（<a href="https://link.zhihu.com/?target=https%3A//hub.docker.com" target="_blank" rel="noopener">https://hub.docker.com</a>）的仓库中pull下Mysql的镜像，前边说过，每个仓库会有多个镜像，用tag标示，如果不加tag，默认使用latest镜像：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ docker search mysql</span><br><span class="line">NAME                              DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED</span><br><span class="line">mysql                             MySQL is a widely used, open-source relation…   8217                </span><br><span class="line">mariadb                           MariaDB is a community-developed fork of MyS…   2802                </span><br><span class="line">mysql/mysql-server                Optimized MySQL Server Docker images. Create…   611                                     </span><br><span class="line">percona                           Percona Server is a fork of the MySQL relati…   435                 </span><br><span class="line">centurylink/mysql                 Image containing mysql. Optimized to be link…   60</span><br></pre></td></tr></table></figure>
+<p>在hub.docker.com搜索可以查看到mysql镜像的更多信息，<a href="https://hub.docker.com/_/mysql?tab=tags" target="_blank" rel="noopener">https://hub.docker.com/_/mysql?tab=tags</a> 。</p>
+<p>先使用docker pull拉取mysql的5.7版本的镜像， 下方mysql:5.7前面mysql为仓库名，5.7为tag版本</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ docker pull mysql:5.7</span><br><span class="line">5.7: Pulling from library/mysql</span><br><span class="line">Digest: sha256:196fe3e00d68b2417a8cf13482bdab1fcc2b32cf7c7575d0906c700688b352b4</span><br><span class="line">Status: Image is up to date for mysql:5.7</span><br></pre></td></tr></table></figure>
+<p>拉取完成后使用 docker images 命令查看镜像信息,这里可以看到mysql 5.7的镜像。</p>
+<figure class="highlight plain"><figcaption><span>~ docker images</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE</span><br><span class="line">mysql               latest              990386cbd5c0        3 weeks ago         443MB</span><br><span class="line">mysql               5.7                 7faa3c53e6d6        3 weeks ago         373MB</span><br></pre></td></tr></table></figure>
+<h3 id="运行mysql容器"><a href="#运行mysql容器" class="headerlink" title="运行mysql容器"></a>运行mysql容器</h3><p>基于上面已经拉取到本地的mysql镜像，可以启动一个mysql容器实例</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ docker run --name demo-mysql -p 3310:3306 -e MYSQL\_ROOT\_PASSWORD=123456 -d mysql:5.7</span><br><span class="line"></span><br><span class="line">360e88bd02537bceec18223350161a2bec6c60e63e794aeb6de4516f9cea2499</span><br></pre></td></tr></table></figure>
+<p>注意 -p 3310:3306表示的本地机器和容器的端口映射，<font color="##dd0000">前面3310为本机端口</font>，3306为运行的容器的端口，表示访问本地机器的3310端口就会映射到容器的3306端口    -e MYSQL_ROOT_PASSWORD=123456 表示设置mysql root用户的密码。</p>
+<p>启动完成使用docker ps -a查看运行情况,可以看到启动了mysql:5.7实例，端口映射为：0.0.0.0:3310-&gt;3306/tcp </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ docker ps -a</span><br><span class="line">CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS              PORTS                               NAMES</span><br><span class="line">360e88bd0253        mysql:5.7           &quot;docker-entrypoint.s…&quot;   About a minute ago   Up About a minute   33060/tcp, 0.0.0.0:3310-&gt;3306/tcp   demo-mysql</span><br><span class="line">➜  ~</span><br></pre></td></tr></table></figure>
+<p>到这里可以mysql已经启动完成，可以连接使用,输入密码123456</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ mysql -h 127.0.0.1 -P 3310 -u root -p</span><br></pre></td></tr></table></figure>
+<h3 id="进入容器"><a href="#进入容器" class="headerlink" title="进入容器"></a>进入容器</h3><p>这里使用的是 -d后台启动，所有使用 docker attach无进入容器中，这里使用docker exec命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ docker exec -it 360e88bd0253 /bin/bash</span><br><span class="line">root@360e88bd0253:/# mysql -u root -p</span><br><span class="line">Enter password:</span><br><span class="line">Welcome to the MySQL monitor.  Commands end with ; or \g.</span><br><span class="line">Your MySQL connection id is 2</span><br><span class="line">Server version: 5.7.26 MySQL Community Server (GPL)</span><br><span class="line"></span><br><span class="line">Copyright (c) 2000, 2019, Oracle and/or its affiliates. All rights reserved.</span><br><span class="line"></span><br><span class="line">Oracle is a registered trademark of Oracle Corporation and/or its</span><br><span class="line">affiliates. Other names may be trademarks of their respective</span><br><span class="line">owners.</span><br><span class="line"></span><br><span class="line">Type &apos;help;&apos; or &apos;\h&apos; for help. Type &apos;\c&apos; to clear the current input statement.</span><br><span class="line"></span><br><span class="line">mysql&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="结束容器"><a href="#结束容器" class="headerlink" title="结束容器"></a>结束容器</h3><p>使用完毕后，释放docker资源。首先使用docker kill +容器id,然后docker rm +容器id。如下图，最后可以看到已经运行中的容器为空。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ docker ps -a</span><br><span class="line">CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                               NAMES</span><br><span class="line">360e88bd0253        mysql:5.7           &quot;docker-entrypoint.s…&quot;   17 minutes ago      Up 17 minutes       33060/tcp, 0.0.0.0:3310-&gt;3306/tcp   demo-mysql</span><br><span class="line">➜  ~ docker kill 360e88bd0253</span><br><span class="line">360e88bd0253</span><br><span class="line">➜  ~ docker rm 360e88bd0253</span><br><span class="line">360e88bd0253</span><br><span class="line">➜  ~ docker ps -a</span><br><span class="line">CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES</span><br><span class="line">➜  ~</span><br></pre></td></tr></table></figure>
+
+      
     </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+      <div>
+        <div id="reward-container">
+  <div></div>
+  <button id="reward-button" disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/images/wechatpay.png" alt="杨军 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/images/alipay.png" alt="杨军 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/docker/" rel="tag"># docker</a>
+          
+            <a href="/tags/mysql/" rel="tag"># mysql</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/04/16/二分查找/" rel="prev" title="二分查找">
+                二分查找 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+
+  
+
+
 
         </div>
         
@@ -529,8 +675,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -638,6 +793,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker安装"><span class="nav-number">1.</span> <span class="nav-text">Docker安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker镜像操作"><span class="nav-number">2.</span> <span class="nav-text">Docker镜像操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运行mysql容器"><span class="nav-number">3.</span> <span class="nav-text">运行mysql容器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#进入容器"><span class="nav-number">4.</span> <span class="nav-text">进入容器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结束容器"><span class="nav-number">5.</span> <span class="nav-text">结束容器</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -773,6 +945,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.0"></script>
+<script src="/js/post-details.js?v=7.1.0"></script>
+
+
 
   
 
@@ -818,6 +994,8 @@
 
 
 
+
+  
 
 
   
