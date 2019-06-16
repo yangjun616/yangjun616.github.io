@@ -12,4 +12,26 @@
         <tag>mysql</tag>
       </tags>
   </entry>
+  <entry>
+    <title><![CDATA[二分查找]]></title>
+    <url>%2F2019%2F04%2F16%2F%E6%97%A0%E9%97%AE%E8%A5%BF%E4%B8%9C%E6%9C%80%E5%90%8E%E5%8F%B0%E8%AF%8D%2F</url>
+    <content type="text"><![CDATA[​ 看到和听到的，经常会令你们沮丧，世俗是这样强大，强大到生不出改变它们的念头来。可是如果有机会提前了解了你们的人生，知道青春也不过只有这些日子，不知你们是否还会在意那些世俗希望你们在意的事情，比如占有多少，才更荣耀，拥有什么，才能被爱。等你们长大，你们会因绿芽冒出土地而喜悦，会对初升的朝阳欢呼跳跃，也会给别人善意和温暖。但是却会在赞美别的生命的同时，常常、甚至永远地忘了自己的珍贵。​ 愿你在被打击时，记起你的珍贵，抵抗恶意；​ 愿你在迷茫时，坚信你的珍贵，爱你所爱，行你所行，听从你心，无问西东。 ​]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>经典台词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[二分查找]]></title>
+    <url>%2F2019%2F04%2F16%2F%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516171819202122232425# 二分查找，是对有序列表进行操作查找。一般遍历查找的时间复杂度为O(n)，二分查找可以将时间复杂度降低到O(logn)def binary_search(list, target): left, right = 0, len(list) if (right == 0): return -1 while (left &lt; right): middle = int((left + right) / 2) if (list[middle] == target): return middle elif (list[middle] &lt; target): left = middle + 1 else: right = middle - 1 return -1if __name__ == &apos;__main__&apos;: list = [3, 5, 1, 2, 4] l = sorted(list) # 使用内置函数遍历查找，O(n) index1 = l.index(5) # 使用二分查找 O(logn) index2 = binary_search(l, 5) print(index1) print(index2) ​]]></content>
+      <categories>
+        <category>基础算法</category>
+      </categories>
+      <tags>
+        <tag>基础算法</tag>
+      </tags>
+  </entry>
 </search>
