@@ -34,4 +34,15 @@
         <tag>基础算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title><![CDATA[git项目开发流程]]></title>
+    <url>%2F2019%2F04%2F16%2Fgit%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[项目多人开发，为避免出现可能的代码错乱问题，需要遵循一定的规范。 ​ 建议git远程仓库的master分支始终为线上可部署版本，每次开发新功能或者修复bug时从master分支切出新的分支进行开发。一般流程如下： 1、将项目代码git clone 到本地，git checkout master 分支，每次开发前先使用 git pull 将本地仓库和远程仓库同步，这样可以尽可能降低后面发起merge发生冲突的可能性。 2、从本地master 分支切换出新的分支，git checkout -b feature_xxx_xxxx ，建议分支名为这次开发的功能，描述清楚具体工作，建议每个分支每次只要一件事情，后续出现问题方便回滚和定位问题。 3、本地代码开发调试，git push 将代码提交到远程仓库。。 4、功能测试完成后，在远程仓库将本次开发的分支向master分支发起merge request，review代码，迭代优化，帮助进一步提高代码质量，comment LGTM表示代码review完成。 5、code review 完成后，这里的feature分支可能会有多次commit ,这里使用git rebase 合并多次commit，具体操作为：git fetch origin master 同步远程master分支; git rebase -i master 编辑多次commit,建议将冗余的commit的由pick修改为fixup，如果发生冲突，解决冲突，git rebase –continue ； git push -f 将本地rebase后的分支push到远程仓库。rebase好处是后面可以更清楚简洁地展示项目的开发迭代历史。 6、远程仓库merge代码。 附件： 在iterms中添加下面命令，使用 git lg 可以更加清晰查看项目历史情况 git config –global alias.lg “log –color –graph –pretty=format:’%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset’ –abbrev-commit –” ​]]></content>
+      <categories>
+        <category>项目管理</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
 </search>

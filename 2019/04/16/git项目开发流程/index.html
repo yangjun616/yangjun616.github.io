@@ -96,13 +96,18 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Yang&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="项目多人开发，为避免出现可能的代码错乱问题，需要遵循一定的规范。 ​       建议git远程仓库的master分支始终为线上可部署版本，每次开发新功能或者修复bug时从master分支切出新的分支进行开发。一般流程如下： 1、将项目代码git clone 到本地，git checkout master 分支，每次开发前先使用 git pull 将本地仓库和远程仓库同步，这样可以尽可能降低后面发">
+<meta name="keywords" content="git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="git项目开发流程">
+<meta property="og:url" content="http://yoursite.com/2019/04/16/git项目开发流程/index.html">
 <meta property="og:site_name" content="Yang&#39;s Blog">
+<meta property="og:description" content="项目多人开发，为避免出现可能的代码错乱问题，需要遵循一定的规范。 ​       建议git远程仓库的master分支始终为线上可部署版本，每次开发新功能或者修复bug时从master分支切出新的分支进行开发。一般流程如下： 1、将项目代码git clone 到本地，git checkout master 分支，每次开发前先使用 git pull 将本地仓库和远程仓库同步，这样可以尽可能降低后面发">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-06-17T15:42:05.183Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Yang&#39;s Blog">
+<meta name="twitter:title" content="git项目开发流程">
+<meta name="twitter:description" content="项目多人开发，为避免出现可能的代码错乱问题，需要遵循一定的规范。 ​       建议git远程仓库的master分支始终为线上可部署版本，每次开发新功能或者修复bug时从master分支切出新的分支进行开发。一般流程如下： 1、将项目代码git clone 到本地，git checkout master 分支，每次开发前先使用 git pull 将本地仓库和远程仓库同步，这样可以尽可能降低后面发">
 
 
 
@@ -110,7 +115,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/16/git项目开发流程/">
 
 
 
@@ -120,7 +125,7 @@
   };
 </script>
 
-  <title>Yang's Blog</title>
+  <title>git项目开发流程 | Yang's Blog</title>
   
 
 
@@ -168,8 +173,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -207,7 +211,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -378,559 +382,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/16/docker运行mysql/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="杨军">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Yang's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/04/16/docker运行mysql/" class="post-title-link" itemprop="url">docker运行mysql，docker入门</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-04-16 11:01:09" itemprop="dateCreated datePublished" datetime="2019-04-16T11:01:09+08:00">2019-04-16</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-06-01 10:52:47" itemprop="dateModified" datetime="2019-06-01T10:52:47+08:00">2019-06-01</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/docker/" itemprop="url" rel="index"><span itemprop="name">docker</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>
-              Docker是什么？Docker是一个虚拟环境容器，可以将你的开发环境、代码、配置文件等一并打包到这个容器中，并发布和应用到任意平台中。
-Docker的三个概念镜像（Image）：类似于虚拟机中的镜像，是一个包含有文件系统的面向Docker引擎的只读模板。任何应用程序运行都需要环境，而镜像就是用来提
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/04/16/docker运行mysql/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/16/无问西东最后台词/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="杨军">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Yang's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/04/16/无问西东最后台词/" class="post-title-link" itemprop="url">无问西东</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-04-16 11:01:09" itemprop="dateCreated datePublished" datetime="2019-04-16T11:01:09+08:00">2019-04-16</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-06-16 19:07:45" itemprop="dateModified" datetime="2019-06-16T19:07:45+08:00">2019-06-16</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/生活/" itemprop="url" rel="index"><span itemprop="name">生活</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>
-              ​         看到和听到的，经常会令你们沮丧，世俗是这样强大，强大到生不出改变它们的念头来。可是如果有机会提前了解了你们的人生，知道青春也不过只有这些日子，不知你们是否还会在意那些世俗希望你们在意的事情，比如占有多少，才更荣耀，拥有什么，才能被爱。等你们长大，你们会因绿芽冒出土地而喜悦，会对初
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/04/16/无问西东最后台词/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/16/二分查找/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="杨军">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Yang's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/04/16/二分查找/" class="post-title-link" itemprop="url">二分查找</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-04-16 11:01:09" itemprop="dateCreated datePublished" datetime="2019-04-16T11:01:09+08:00">2019-04-16</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-04-19 21:38:36" itemprop="dateModified" datetime="2019-04-19T21:38:36+08:00">2019-04-19</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/基础算法/" itemprop="url" rel="index"><span itemprop="name">基础算法</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>
-              # 二分查找，是对有序列表进行操作查找。一般遍历查找的时间复杂度为O(n)，二分查找可以将时间复杂度降低到O(logn)def binary_search(list, target):    left, right = 0, len(list)    if (right == 0):        
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/04/16/二分查找/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
 
   
 
@@ -962,10 +416,8 @@ Docker的三个概念镜像（Image）：类似于虚拟机中的镜像，是一
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/04/16/git项目开发流程/" class="post-title-link" itemprop="url">git项目开发流程</a>
+          <h1 class="post-title" itemprop="name headline">git项目开发流程
+
               
             
           </h1>
@@ -1035,6 +487,19 @@ Docker的三个概念镜像（Image）：类似于虚拟机中的镜像，是一
           
             
             
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2019/04/16/git项目开发流程/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/16/git项目开发流程/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -1059,24 +524,19 @@ Docker的三个概念镜像（Image）：类似于虚拟机中的镜像，是一
       
 
       
-        
-          
-            <p>
-              项目多人开发，为避免出现可能的代码错乱问题，需要遵循一定的规范。
-​       建议git远程仓库的master分支始终为线上可部署版本，每次开发新功能或者修复bug时从master分支切出新的分支进行开发。一般流程如下：
-1、将项目代码git clone 到本地，git checkout mas
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/04/16/git项目开发流程/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
+        <p>项目多人开发，为避免出现可能的代码错乱问题，需要遵循一定的规范。</p>
+<p>​       建议git远程仓库的master分支始终为线上可部署版本，每次开发新功能或者修复bug时从master分支切出新的分支进行开发。一般流程如下：</p>
+<p>1、将项目代码git clone 到本地，git checkout master 分支，每次开发前先使用 git pull 将本地仓库和远程仓库同步，这样可以尽可能降低后面发起merge发生冲突的可能性。</p>
+<p>2、从本地master 分支切换出新的分支，git checkout -b feature_xxx_xxxx  ，建议分支名为这次开发的功能，描述清楚具体工作，建议每个分支每次只要一件事情，后续出现问题方便回滚和定位问题。</p>
+<p>3、本地代码开发调试，git push 将代码提交到远程仓库。。</p>
+<p>4、功能测试完成后，在远程仓库将本次开发的分支向master分支发起merge request，review代码，迭代优化，帮助进一步提高代码质量，comment LGTM表示代码review完成。</p>
+<p>5、code review 完成后，这里的feature分支可能会有多次commit ,这里使用git rebase 合并多次commit，具体操作为：git fetch origin master  同步远程master分支;  git rebase -i  master  编辑多次commit,建议将冗余的commit的由pick修改为fixup，如果发生冲突，解决冲突，git rebase –continue ； git push -f 将本地rebase后的分支push到远程仓库。rebase好处是后面可以更清楚简洁地展示项目的开发迭代历史。</p>
+<p>6、远程仓库merge代码。</p>
+<p>附件：</p>
+<p>在iterms中添加下面命令，使用 git lg 可以更加清晰查看项目历史情况</p>
+<p>git config –global alias.lg “log –color –graph –pretty=format:’%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset’ –abbrev-commit –”</p>
+<p>​                        </p>
+
       
     </div>
 
@@ -1092,19 +552,74 @@ Docker的三个概念镜像（Image）：类似于虚拟机中的镜像，是一
       
     
     
+      <div>
+        <div id="reward-container">
+  <div></div>
+  <button id="reward-button" disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/images/wechatpay.png" alt="杨军 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/images/alipay.png" alt="杨军 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+  </div>
+</div>
+
+      </div>
+    
 
     
 
     <footer class="post-footer">
       
-
+        <div class="post-tags">
+          
+            <a href="/tags/git/" rel="tag"># git</a>
+          
+        </div>
       
 
       
+      
+      
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/04/16/二分查找/" rel="prev" title="二分查找">
+                二分查找 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
-        <div class="post-eof"></div>
+
+      
       
     </footer>
   </div>
@@ -1114,14 +629,19 @@ Docker的三个概念镜像（Image）：类似于虚拟机中的镜像，是一
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+
+  
+
+
 
         </div>
         
@@ -1393,6 +913,10 @@ Docker的三个概念镜像（Image）：类似于虚拟机中的镜像，是一
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.0"></script>
+<script src="/js/post-details.js?v=7.1.0"></script>
+
+
 
   
 
@@ -1438,6 +962,8 @@ Docker的三个概念镜像（Image）：类似于虚拟机中的镜像，是一
 
 
 
+
+  
 
 
   
@@ -1788,16 +1314,6 @@ Docker的三个概念镜像（Image）：类似于虚拟机中的镜像，是一
   
 
   
-  
-    
-      
-    
-      
-    
-      
-    
-      
-    
   
 
   
